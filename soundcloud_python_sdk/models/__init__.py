@@ -1,0 +1,55 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from soundcloud_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from soundcloud_python_sdk.model.activities import Activities
+from soundcloud_python_sdk.model.activities_collection import ActivitiesCollection
+from soundcloud_python_sdk.model.activities_collection_item import ActivitiesCollectionItem
+from soundcloud_python_sdk.model.activities_collection_item_origin import ActivitiesCollectionItemOrigin
+from soundcloud_python_sdk.model.comment import Comment
+from soundcloud_python_sdk.model.comment_user import CommentUser
+from soundcloud_python_sdk.model.comments import Comments
+from soundcloud_python_sdk.model.create_update_playlist_form_request import CreateUpdatePlaylistFormRequest
+from soundcloud_python_sdk.model.create_update_playlist_request import CreateUpdatePlaylistRequest
+from soundcloud_python_sdk.model.create_update_playlist_request_playlist import CreateUpdatePlaylistRequestPlaylist
+from soundcloud_python_sdk.model.create_update_playlist_request_playlist_tracks import CreateUpdatePlaylistRequestPlaylistTracks
+from soundcloud_python_sdk.model.create_update_playlist_request_playlist_tracks_item import CreateUpdatePlaylistRequestPlaylistTracksItem
+from soundcloud_python_sdk.model.error import Error
+from soundcloud_python_sdk.model.error_errors import ErrorErrors
+from soundcloud_python_sdk.model.found import Found
+from soundcloud_python_sdk.model.me import Me
+from soundcloud_python_sdk.model.me_get_liked_playlists_response import MeGetLikedPlaylistsResponse
+from soundcloud_python_sdk.model.me_list_liked_tracks_response import MeListLikedTracksResponse
+from soundcloud_python_sdk.model.me_quota import MeQuota
+from soundcloud_python_sdk.model.o_auth_token import OAuthToken
+from soundcloud_python_sdk.model.oauth_provision_access_token401_response import OauthProvisionAccessToken401Response
+from soundcloud_python_sdk.model.oauth_provision_access_token_response import OauthProvisionAccessTokenResponse
+from soundcloud_python_sdk.model.playlist import Playlist
+from soundcloud_python_sdk.model.playlists import Playlists
+from soundcloud_python_sdk.model.playlists_array import PlaylistsArray
+from soundcloud_python_sdk.model.playlists_create_new_playlist_request import PlaylistsCreateNewPlaylistRequest
+from soundcloud_python_sdk.model.streams import Streams
+from soundcloud_python_sdk.model.too_many_requests import TooManyRequests
+from soundcloud_python_sdk.model.track import Track
+from soundcloud_python_sdk.model.track_data_request import TrackDataRequest
+from soundcloud_python_sdk.model.track_metadata_request import TrackMetadataRequest
+from soundcloud_python_sdk.model.track_metadata_request_track import TrackMetadataRequestTrack
+from soundcloud_python_sdk.model.tracks import Tracks
+from soundcloud_python_sdk.model.tracks_create_comment_request import TracksCreateCommentRequest
+from soundcloud_python_sdk.model.tracks_create_comment_request_comment import TracksCreateCommentRequestComment
+from soundcloud_python_sdk.model.tracks_list import TracksList
+from soundcloud_python_sdk.model.tracks_upload_new_track_request import TracksUploadNewTrackRequest
+from soundcloud_python_sdk.model.tracks_upload_new_track_request1 import TracksUploadNewTrackRequest1
+from soundcloud_python_sdk.model.user import User
+from soundcloud_python_sdk.model.users import Users
+from soundcloud_python_sdk.model.web_profiles import WebProfiles
+from soundcloud_python_sdk.model.web_profiles_item import WebProfilesItem
